@@ -1,0 +1,27 @@
+// somando todos os números do intervalo digitado. JAVA 
+
+package estruturadedados;
+
+import java.util.Scanner;
+
+public class Exercicio_Pilha_Gustavo_Santos {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Vamos somar todos os numeros no intervalo digitado");
+    
+
+        int valor = scan.nextInt();
+        int total=0;
+        for (int i = 0; i <valor ; valor--) {
+           
+            total=valor+total;
+            //System.out.println("result :"+total);
+            
+        }
+         System.out.println("result :"+total);
+    }
+
+}
